@@ -1,0 +1,720 @@
+	<!DOCTYPE html>
+	<html lang="zh-CN">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="screen-orientation" content="portrait">
+	    <meta name="x5-orientation" content="portrait">
+	    <title>成都模特</title>
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/index.css" rel="stylesheet">
+	    <!--[if lt IE 9]>
+	    <script src="script/html5shiv.min.js"></script>
+	    <script src="script/respond.min.js"></script>
+	    <![endif]-->
+	    <script src="script/jquery.min.js"></script>
+	    <script src="script/bootstrap.min.js"></script>
+	    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+	    <link rel="icon" href="image/favicon.ico" type="image/x-icon"/>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<header id="header">
+			<nav id="nav" class="navbar navbar-inverse navbar-default">
+				 <div class="container">
+	                 <div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse"
+	         data-target="#example-navbar-collapse">
+	            <span class="sr-only">切换导航</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	        </button>
+	        <a class="navbar-brand" href="#">
+	        	<img src="image/logo.png" class="img-responsive" style="width:150px;height: 50px;">
+	        </a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+	        <ul class="nav navbar-nav">
+	            <li class="active"><a href="#">成都模特</a></li>
+	            <li><a href="#">模特库</a></li>
+	            <li><a href="#">招聘计划</a></li>
+	            <li><a href="fashion.html">时尚生活</a></li>
+	            <li><a href="#">行业防骗</a></li>
+	            <li><a href="#">关于我们</a></li>
+	        </ul>
+	    <button class="btn btn-primary btn-lg fr text-center" data-toggle="modal" data-target="#myModal">模特免费推荐</button>
+	    <!-- 模态框（Modal） -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+						&times;
+					</button>
+					<h4 class="modal-title" id="myModalLabel">
+						入驻红人榜
+							<div class="alert alert alert-success">
+								照片标准参见范例： <a href="#">>>点击浏览 << </a>，如有疑问请加微信 kexuejia007 咨询
+							</div>
+							<div class="alert alert-info">
+								照片须为本人近照，切清晰无水印，美图秀秀P出来的就不要发了
+							</div>
+					</h4>
+				</div>
+				<div class="modal-body">
+					<form role="form">
+		               <div class="form-group">
+			            <label for="name">你的名字:</label>
+			              <input type="text" class="form-control" id="name" 
+				           placeholder="请输入名称">
+		               </div>
+		               
+		               <div class="form-group">
+			            <label for="adress">你的籍贯：</label>
+			             <select class="form-control">
+				          <option>四川</option>
+				          <option>广西</option>
+				          <option>上海</option>
+				          <option>北京</option>
+				          <option>山东</option>
+			             </select>
+			             
+			            <div class="form-group">
+			            <label for="weight">你的体重:</label>
+			              <input type="number" class="form-control" id="weight" >
+		               </div>
+		               
+		               	<div class="form-group">
+			            <label for="weight">文件大小不要超过1024kb</label>
+			              <input type="file" class="form-control" id="inputfile" >
+		               </div>
+		               
+		                <div class="form-group">
+	                    <label for="name">还有没有其他补充？</label>
+	                    <textarea class="form-control" rows="4"></textarea>
+	                    </div>
+		               
+		               
+		            </form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">
+						提交更改
+					</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">close
+					</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal -->
+	</div>
+			</nav>	
+		</header>
+		
+	<!--轮播-->
+		  <section class="banner">
+	            <div id="myCarousel" class="carousel slide">
+	                <!-- 轮播（Carousel）指标 -->
+	                <ol class="carousel-indicators">
+	                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	                    <li data-target="#myCarousel" data-slide-to="1"></li>
+	                    <li data-target="#myCarousel" data-slide-to="2"></li>
+	                </ol>
+	                <!-- 轮播（Carousel）项目 -->
+	                <div class="carousel-inner">
+	                    <div class="item active">
+	                        <img src="image/01.jpg">
+	                    </div>
+	                    <div class="item">
+	                        <img src="image/02.png">
+	                    </div>
+	                    <div class="item">
+	                        <img src="image/slide.jpg">
+	                    </div>
+	                </div>
+	                <!-- 轮播（Carousel）导航 -->
+	                <a class="carousel-control left no-bg" href="#myCarousel"
+	                   data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	                <a class="carousel-control right no-bg" href="#myCarousel"
+	                   data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	            </div>
+	        </section>
+	<!--新锐媒体专注新时尚领域 -->        
+	    <section>
+	    <div class="blank20" style="height: 20px;font-size: 0px;display:block;width: auto;"></div>
+	     <div class="container">
+	      <div class="panel panel-default">
+	       <div class="panel-body">
+	        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+	        	<div class="page-header">
+	              <h3>新锐媒体专注新时尚领域</h3>
+	            </div>
+	          <p>成都模特网是目前国内新锐丽人开发与培养的专业品牌，垂直的优质人才聚集地涉及时尚文化开拓、品牌策划、时装发布多个行业，汇集众多行业人才，是国内极优众艺的推广展示平台。 </p>
+	        <div class="center" style="text-align: center;">
+	
+	         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	        	<img src="image/code.jpg.png"  class="img-responsive text-center center-block">
+	            <p>马上联系负责人</p>
+	         </div>
+	         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	        	<img src="image/qrcode.jpg"  class="img-responsive text-center center-block">
+	            <p>关注微信公众号</p>
+	         </div>
+	        </div>
+	        <div class="btn-group" role="group">
+	          <button type="button" data-toggle="modal" data-target="#Modal" class="btn fl"><<企业资源合作</button>  
+	          <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-pink">模特免费上榜>></button> 
+	         </div>
+	       </div>
+	       
+	  <!-- 招募信息 -->
+	     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
+	     	<div class="page-header">
+	     		<strong>招募信息</strong>
+	     	    <a class="fr" style="text-decoration: none;color:#fb397d;">查看更多>></a>  
+	        </div>
+	    
+	    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+	    	<img src="image/nvshen2-400x400.jpg" class="img-rounded" >
+	    </div>
+	    
+	    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 ">
+	    <h4 class="list-group-item-heading"><a class="color_black">游戏模特拍摄招募</a></h4>
+	    <span class="color_gray_01">类别: 工作招募</span><br>
+	    <span class="color_gray_01">发布：2016/06/09</span>
+	    </div>
+	    <div class="blank5" style="height:5px;width: 100%;display: inline-block;"></div>
+	    <div class="dotted_line" style="margin:30px 0px;width:100%;height: 1px;border-bottom: 1px dotted #d7d7d7;"></div>
+	    <div class="blank5" style="height:5px;width: 100%;display: block;"></div>
+	
+	    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+	    	<img src="image/nvshen2-400x400.jpg" class="img-rounded" >
+	    </div>
+	    
+	    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 ">
+	    <h4 class="list-group-item-heading"><a class="color_black">游戏模特拍摄招募</a></h4>
+	    <span class="color_gray_01">类别: 工作招募</span><br>
+	    <span class="color_gray_01">发布：2016/06/09</span>
+	    </div>
+	    <div class="blank5" style="height:5px;width: 100%;display: inline-block;"></div>
+	    <div class="dotted_line" style="margin:30px 0px;width:100%;height: 1px;border-bottom: 1px dotted #d7d7d7;"></div>
+	    <div class="blank5" style="height:5px;width: 100%;display: block;"></div>
+	
+	    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+	    	<img src="image/nvshen2-400x400.jpg" class="img-rounded" >
+	    </div>
+	    
+	    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 ">
+	    <h4 class="list-group-item-heading"><a class="color_black">游戏模特拍摄招募</a></h4>
+	    <span class="color_gray_01">类别: 工作招募</span><br>
+	    <span class="color_gray_01">发布：2016/06/09</span>
+	    </div>
+	    <div class="blank5" style="height:5px;width: 100%;display: inline-block;"></div>
+	    <div class="dotted_line" style="margin:30px 0px;width:100%;height: 1px;border-bottom: 1px dotted #d7d7d7;"></div>
+	    <div class="blank5" style="height:5px;width: 100%;display: block;"></div>
+	 </div> 	
+	</div>
+	    </section>
+	   <!-- 图片区-->
+	   <div class="container">
+	    <section id="banner">
+	     <div class="panel panel-default">
+	     	<div class="panel-body text-center">
+	     		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	     			 <img src="image/banner01.jpg" class="img-rounded" >
+	     			 <div class="blank5" style="height:15px;width: 100%;display: block;"></div>
+	     		</div>
+	     		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	     			<a class="#" data-toggle="modal" data-target="#myModal">
+	     			 <img src="image/banner02.jpg" class="img-rounded"  alt="成都模特">
+	     			</a>
+	     			
+	     			 <!-- 模态框（Modal） -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+						&times;
+					</button>
+					<h4 class="modal-title" id="myModalLabel">
+						模态框（Modal）标题
+					</h4>
+				</div>
+				<div class="modal-body">
+					在这里添加一些文本
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">关闭
+					</button>
+					<button type="button" class="btn btn-primary">
+						提交更改
+					</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal -->
+	</div>
+	     		</div>
+	     	</div>
+	     </div>
+	    </section>
+	  <!-- 新锐红人榜-->
+	   <div class="container">
+	    <div class="page-header">
+	     		<strong>新锐红人榜</strong>
+	     	    <a class="fr" style="text-decoration: none;color:#fb397d;">查看更多>></a>    
+	        </div>
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt">
+	 			<p><span>vip</span>小燕</p>
+	 		</div>
+	 	</div>
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img">
+	    	<img src="image/xiaoyan-600x600.jpg">  
+	    	<div class="txt">
+	 			<p><span>vip</span>小燕</p>
+	 		</div>
+	 	</div> 
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img">
+	    	<img src="image/xiaoyan-600x600.jpg">  
+	    	<div class="txt">
+	 			<p><span>vip</span>小燕</p>
+	 		</div>
+	 	</div>  
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img">
+	    	<img src="image/xiaoyan-600x600.jpg">  
+	    	<div class="txt">
+	 			<p><span>vip</span>小燕</p>
+	 		</div>
+	 	</div> 
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img">
+	    	<img src="image/xiaoyan-600x600.jpg">  
+	    	<div class="txt">
+	 			<p><span>vip</span>小燕</p>
+	 		</div>
+	 	</div>  
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img">
+	    	<img src="image/xiaoyan-600x600.jpg">  
+	    	<div class="txt">
+	 			<p><span>vip</span>小燕</p>
+	 		</div>
+	 	</div>
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    <!---->
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img">
+	    	<img src="image/xiaoyan-600x600.jpg">  
+	    	<div class="txt">
+	 			<p><span>vip</span>小燕</p>
+	 		</div>
+	 	</div>  
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img">
+	    	<img src="image/xiaoyan-600x600.jpg">  
+	    	<div class="txt">
+	 			<p><span>vip</span>小燕</p>
+	 		</div>
+	 	</div>  
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img">
+	    	<img src="image/xiaoyan-600x600.jpg">  
+	    	<div class="txt">
+	 			<p><span>vip</span>小燕</p>
+	 		</div>
+	 	</div> 
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img">
+	    	<img src="image/xiaoyan-600x600.jpg">  
+	    	<div class="txt">
+	 			<p><span>vip</span>小燕</p>
+	 		</div>
+	 	</div>  
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img">
+	    	<img src="image/xiaoyan-600x600.jpg">  
+	    	<div class="txt">
+	 			<p><span>vip</span>小燕</p>
+	 		</div>
+	 	</div>
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img">
+	    	<img src="image/xiaoyan-600x600.jpg">  
+	    	<div class="txt">
+	 			<p><span>vip</span>小燕</p>
+	 		</div>
+	 	</div>
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	   </div>
+	   <div class="blank20" style="height: 20px;font-size: 0px;display:block;width: auto;"></div>
+	     <div class="col-md-6 col-md-offset-3">
+	    	<a class="btn btn-pink btn-lg btn-block" type="button">查看超模榜</a>
+	    </div>
+	   </div>
+	<!-- 性感车模-->
+	  <div class="container">
+	    <div class="page-header">
+	     		<strong>性感车模</strong>
+	     	    <a class="fr" style="text-decoration: none;color:#fb397d;">查看更多>></a>  
+	    </div>
+	  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img2">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt2">
+	 			<p>小燕</p>
+	 		</div>
+	 	</div> 
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img2">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt2">
+	 			<p>小燕</p>
+	 		</div>
+	 	</div>   
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img2">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt2">
+	 			<p>小燕</p>
+	 		</div>
+	 	</div>  
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img2">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt2">
+	 			<p>小燕</p>
+	 		</div>
+	 	</div>  
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img2">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt2">
+	 			<p>小燕</p>
+	 		</div>
+	 	</div> 
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img2">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt2">
+	 			<p>小燕</p>
+	 		</div>
+	 	</div>  
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	<!-- 性感车模2-->
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img2">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt2">
+	 			<p>小燕</p>
+	 		</div>
+	 	</div> 
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img2">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt2">
+	 			<p>小燕</p>
+	 		</div>
+	 	</div> 
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img2">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt2">
+	 			<p>小燕</p>
+	 		</div>
+	 	</div>   
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img2">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt2">
+	 			<p>小燕</p>
+	 		</div>
+	 	</div> 
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img2">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt2">
+	 			<p>小燕</p>
+	 		</div>
+	 	</div> 
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	    
+	    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+	    <div class="modol_img2">
+	    	<img src="image/xiaoyan-600x600.jpg" class="model">  
+	    	<div class="txt2">
+	 			<p>小燕</p>
+	 		</div>
+	 	</div>  
+	    	<div class="modelinfo">
+	    		<span>模特ID/1883</span> 
+	    		<br>
+	    		<span>热度值/925 ℃</span>
+	    	</div>
+	    </div>
+	   </div>
+	   <div class="blank20" style="height: 20px;font-size: 0px;display:block;width: auto;"></div>
+	     <div class="blank20" style="height: 20px;font-size: 0px;display:block;width: auto;"></div>
+	     <div class="col-md-6 col-md-offset-3">
+	    	<a class="btn btn-pink btn-lg btn-block" type="button">查看超模榜</a>
+	    </div>
+	    <div class="blank50" style="height: 50px;font-size: 0px;display:block;width: auto;"></div>
+	  </div>
+	  
+	<!-- 新锐媒体专注新时尚领域-->
+		<div class="container">
+	     <div class="panel panel-default">
+	      <div class="panel-body">
+	        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+	        	<div class="page-header">
+	              <h3>新锐媒体专注新时尚领域</h3>
+	            </div>
+	          <p>成都模特网是目前国内新锐丽人开发与培养的专业品牌，垂直的优质人才聚集地涉及时尚文化开拓、品牌策划、时装发布多个行业，汇集众多行业人才，是国内极优众艺的推广展示平台。 </p>
+	        </div>
+	        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 text-center"></div>
+	         <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 text-center">
+	        	<img src="image/code.jpg.png"  class="img-responsive text-center center-block">
+	            <p>马上联系负责人</p>
+	         </div>
+	        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 text-center">
+	        	<img src="image/qrcode.jpg"  class="img-responsive text-center center-block">
+	            <p>关注微信公众号</p>
+	        </div>
+	        <div class="blank20" style="height: 20px;font-size: 0px;display:block;width: auto;"></div>
+	         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+	         <div class="btn-group" role="group">
+	          <button type="button" data-toggle="modal" data-target="#Modal" class="btn fl"><<企业资源合作</button>
+	          <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-pink">模特免费上榜>></button> 
+	 <!-- 模态框（Modal） -->
+	<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+						&times;
+					</button>
+					<h4 class="modal-title" id="myModalLabel">成都模特网渠道合作</h4>
+				</div>
+				<div class="modal-body">
+					<img src="image/code.jpg.png" width="200px" height="200px" class="img-responsive text-center center-block">
+				<p class="text-center">成都模特公司-成都模特广告代理</p>
+				<p class="text-center">时尚文化开拓、品牌策划、时装发布</p>
+			<div class="blank30" style="height:30px;"></div>
+			<ul class="list-group text-center">
+			 <li class="list-group-item">地址：成都市成华区建设北路三段26号</li>
+			 <li class="list-group-item">电话：151-224-67641</li>
+			 <li class="list-group-item">网址:<a href="#" style="text-decoration:none;">http://chengdumote.com</a></li>
+			 <li class="list-group-item">邮箱：<a href="#">boss@chengdumote.com</a></li>
+		     </ul>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">
+						提交更改
+					</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">close
+					</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal -->
+	</div>
+	         </div>
+	         </div>
+	       </div>
+	      </div>
+	<!-- 模特图片-->
+	  <div class="blank20" style="height: 20px;font-size: 0px;display:block;width: auto;"></div>
+	   <div class="container">
+	   	<div class="text-center">
+	   	 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+	   	 	<a href="#" class="box"><img src="image/server01.jpg"></a>
+	   	 </div>
+	   	 
+	   	 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+	   	 	<a href="#" class="box"><img src="image/server01.jpg"></a>
+	   	 </div>
+	   	 
+	   	 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+	   	 	<a href="#" class="box"><img src="image/server01.jpg"></a>
+	   	  </div>
+	   	  
+	   	 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+	   	 	<a href="#" class="box"><img src="image/server01.jpg"></a>
+	   	 </div>
+	   	</div>
+	   </div>
+	   <div class="blank50" style="height: 50px;font-size: 0px;display:block;width: auto;"></div>
+	  </div>
+	  </div>
+	<!-- 尾部-->
+	  <footer class="footer">
+	   <div class="container text-center">
+	   	<p>COPYRIGHT 成都模特 ALL RIGHTS RESERVED.</p>
+	   	<p>页面：<a href="#">站点地图</a><span>|</span><a href="#">成都美女</a><span>|</span><a href="#">成都车模</a><span>|</span><a href="#">成都模特</a></p>
+	    <p>标签：<a href="#">模特公司</a><span>|</span><a href="#">成都模特兼职</a><span>|</span><a href="#">成都商务模特</a><span>|</span><a href="#">成都糖酒会模特</a></p>
+	    <p>版权所有，抄袭必究</p>
+	    <p>設計&開發 BY JACK ／ <a href="#">BLOG</a></p>
+	   </div>
+	  </footer>
+	<script src="script/jquery-1.8.3.min.js"></script>
+	<script src="script/index.js"></script>
+	 </body>
+	</html>

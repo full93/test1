@@ -1,0 +1,58 @@
+a,
+input,
+button {
+  -webkit-tap-hightlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  -webkit-appearance: none;
+  outline: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+}
+body* {
+  -webkit-user-select: none;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+}
+h1 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  font-family: Helvetica,微软雅黑;
+}
+*{margin:0px;padding:0px}
+.fr{float:right;}
+img{ width: 100%; height: auto;max-width: 100%; display: block;}
+body{background: #f8f8f8;}
+h1,h3,p{font-family: Helvetica,微软雅黑;font-weight: 200;}
+.text-center{text-align: center;}
+.btn{border:0;}
+a.color_black{text-decoration: none;color:#616161;}
+.btn-pink{background-color: #fc1264;color: #fff;padding: 6px 6px;display: block;text-align: center;}
+#navbar{margin-bottom:0px;}
+.box{padding: 10px 10px;border: 1px solid #d0d0d0;background: #fff;margin-top: -10px;display: block;}
+.back{opacity:0.5;}
+.bule{-webkit-filter: blur(3px); /* Chrome, Opera */-moz-filter: blur(3px);-ms-filter: blur(3px);filter: blur(3px);}
+.modol_img{position: relative;}
+.modol_img .txt{transition:1s;}
+.modol_img .txt span,p{margin-top:10px;}
+.modol_img .txt span{width: 20px;height: 20px;line-height:20px;display: inline-block;background: #C0A16B;}
+.modol_img .txt p{color:#fff;position:absolute;left:0px;bottom:-10px;background:rgba(18,21,44,0.7);width:100%;height:50px;text-align: center;transition:1s;}
+.bule{ -moz-filter: blur(3px);  -ms-filter: blur(3px);  filter: blur(3px);  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); } 
+.modol_img2{position: relative;}
+.modol_img2 .txt2{transition:1s;}
+.modol_img2 .txt2 p{color:#fff;position:absolute;left:0px;bottom:-10px;background:rgba(18,21,44,0.7);width:100%;height:20px;transition:1s;text-align:center;}
+.box{transition:1s;}
+.box:hover{margin-top:-20px;box-shadow:0px 10px 10px rgba(0,0,0,0.2)}
+.footer{width: 100%;background:#363636;color:#868686;padding: 20px 10px;}
+.footer a{text-decoration: none;color:#868686;transition:1s;}
+.footer a:hover{color:#ff2d77;}
+
+.padding{padding: 20px 20px;}
+.gray{color: #ccc;}
